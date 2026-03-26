@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "5",
 
   // Services
   services: [
@@ -79,9 +79,11 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Andrew Liversidge", rating: 5, text: "Having recently agreed to commit our lawn care this season to Lawnkeeper we report that we are totally delighted with the outcome to date. …  ", date: "9 years ago" },
+    { name: "C&KHansen", rating: 5, text: "I can not recommend this service highly enough - brilliant. I have a newish house, cheap grass and awful topsoil. I spent hours and hours messing around with the lawn which was always terrible. I applied every treatment going, stuff which …  ", date: "8 years ago" },
+    { name: "Louisa Moreton", rating: 5, text: "To say that the lawn looks extraordinary is an understatement! Our summer party went off brilliantly and without exaggerating, almost everyone commented on the lawn. It's simply beautiful- green, lush, thick with no weeds or moss. What you achieved i", date: "8 years ago" },
+    { name: "Andy Mee", rating: 5, text: "Our lawn has been transformed and is now a pleasure to mow and look at.  Would thoroughly recommend Lawnkeeper to anyone wanting to revive their lawn. ", date: "Edited 6 years ago" },
+    { name: "Gordon Findlay", rating: 5, text: "Highly recommended - good advice and great service. Nigel's a lovely man to deal with too! ", date: "11 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
